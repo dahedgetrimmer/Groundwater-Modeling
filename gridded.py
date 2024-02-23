@@ -3,6 +3,9 @@
 """
 Created on Mon Oct  9 21:32:44 2023
 
+Creates a Modflow6 groundwater model with 2 pumping wells using
+a gridded domain. Plots are generated of the results.
+
 @author: jrevier
 """
 
