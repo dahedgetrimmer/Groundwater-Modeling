@@ -3,6 +3,10 @@
 """
 Created on Tue Oct  3 08:56:28 2023
 
+Creates a Modflow6 groundwater model with 2 pumping wells using
+a triangular mesh domain. The domain of this run is a single domain.
+Plots are generated of the results.
+
 @author: jrevier
 """
 
