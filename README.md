@@ -1,5 +1,5 @@
 # Groundwater-Modeling
-MODFLOW6 Groundwater Models via Python Scripts
+MODFLOW6 Groundwater Models via FloPy
 
+FILE REQUIREMENTS: triangle.exe and mf6.exe
 
-FILE REQUIREMENTS: triangle.exe and mf6.exe 
