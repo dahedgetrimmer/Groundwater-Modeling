@@ -24,9 +24,9 @@ starttime = time.time()
 cpustart= time.process_time()
 
 name = "tri_proj_nested"
-workspace = '/home/jrevier/Documents/ahs432/Final_Project/Model/nested'
-tri_exe = '/home/jrevier/Documents/ahs432/Final_Project/Exe/triangle'
-mf6_exe = '/home/jrevier/Documents/ahs432/Final_Project/Exe/mf6'
+workspace = 'PATH_TO_SIMULATION_OUTPUT'
+tri_exe = 'PATH_TO_triangle_EXECUTABLE'
+mf6_exe = 'PATH_TO_mf6_EXECUTABLE'
 
 
 
@@ -213,7 +213,7 @@ endtime = time.time()
 cpuend= time.process_time()
 
 
-plt.savefig('/home/jrevier/Documents/ahs432/Final_Project/Plots/nested_example', format='png')
+plt.savefig('PATH_TO_....', format='png')
 
 computetime = cpuend - cpustart
 time = endtime - starttime
