@@ -18,11 +18,11 @@ import flopy
 starttime = time.time()
 cpustart= time.process_time()
 
-workspace = '/home/jrevier/Documents/ahs432/Final_Project/Model/gridded/'
-mf6_exe = '/home/jrevier/Documents/ahs432/Final_Project/Exe/mf6'
+workspace = 'PATH_TO_SIMULATION_OUTPUTS'
+mf6_exe = 'PATH_TO_mf6_EXECUTABLE'
 name = "gridded"
 sim = flopy.mf6.MFSimulation(name, 
-                           exe_name="/home/jrevier/Documents/ahs432/Final_Project/Exe/mf6", 
+                           exe_name=mf6_exe, 
                            )
 
 
