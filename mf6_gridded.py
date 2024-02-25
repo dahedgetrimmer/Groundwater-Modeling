@@ -128,7 +128,7 @@ ax.set_ylabel('South to North (200m Intervals)', fontsize='15')
 ax.set_title('Grid Domain: 2 Wells', fontsize='15')
 ax.clabel(contour, inline=1, fontsize=14, fmt='%1.0f')
 plt.grid(True)
-plt.savefig('/home/jrevier/Documents/ahs432/Final_Project/Plots/grid_example', format='png')
+plt.savefig('PATH_TO_.....', format='png')
 
 
 # Plot color grid of heads
@@ -144,7 +144,7 @@ ax.set_xlabel('East to West (200m Intervals)', fontsize='15')
 ax.set_ylabel('South to North (200m Intervals)', fontsize='15')
 ax.set_title('Grid Domain: 2 Wells', fontsize='15')
 colorbar.set_label('Head Elevation (m)')
-plt.savefig('/home/jrevier/Documents/ahs432/Final_Project/Plots/gridfill_example', format='png')
+plt.savefig('PATH_TO_.....', format='png')
 
 fig = plt.figure(figsize=(10, 10))
 ax = fig.add_subplot(1, 1, 1, aspect="equal")
@@ -164,7 +164,7 @@ ax.set_title('Grid Domain: 2 Wells', fontsize='15')
 endtime = time.time()
 cpuend= time.process_time()
 
-plt.savefig('/home/jrevier/Documents/ahs432/Final_Project/Plots/gridcontour_example')
+plt.savefig('PATH_TO_.....')
 
 computetime = cpuend - cpustart
 time = endtime - starttime
